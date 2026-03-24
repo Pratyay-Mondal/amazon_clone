@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --color-amazon-nav: #131921;
+  --color-amazon-nav_light: #232F3E;
+  --color-amazon-bg: #eaeded;
+  --color-amazon-button: #f3a847;
+  --color-amazon-button_hover: #f08804;
+}
+
+body {
+  background-color: var(--color-amazon-bg);
+  color: #111827;
+}
+
+/* Custom scrollbar to look like Amazon */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
